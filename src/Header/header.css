@@ -1,0 +1,88 @@
+
+
+.head_container {
+    font-family: interface,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    color: white;
+    padding: 1% 5% 5% 1%;
+}
+.head_box {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    column-gap: .5%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    justify-content: center; 
+    
+}
+.head_logo {   
+    width: 150%;
+    margin-left: -80%;
+}
+.head_word {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+
+    }
+    .head_men{
+        color: white;
+        padding: 1%;
+    }
+    .head_log{
+        background-color: rgb(62, 62, 62);
+        width: 13em;
+        height: 50%;
+        padding: 5% 20%;
+        border: transparent;
+        margin-left: 10%;
+        margin-top: 17%;
+        color: white;
+        
+    }
+    .head_user{
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 12% 15%;
+        margin-right: 40%;
+        margin-left: -35%; 
+    }
+    .head_bord{
+        /* background-color: pink; */
+        /* background-image: linear-gradient(to left, red, orange, yellow, green); */
+        border-right: black 5px solid;
+        width: 50%;
+        padding: 1%;
+        margin-top: .5%;
+        
+    }
+    .head_bar{
+        display: flex;
+        background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+        column-gap: 1%;
+        background-clip: padding-box;
+        width: 45%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+    .head_upcr {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .head_ucbox {
+       background-color: #6157ff; 
+       margin-top: 2%;
+       margin-bottom: 1%;
+       padding: 1%;
+    }
+    .head_search {
+        
+    }
+    
