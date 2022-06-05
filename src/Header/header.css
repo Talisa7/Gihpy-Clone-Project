@@ -8,6 +8,7 @@
     width: 100%;
     color: white;
     padding: 1% 5% 5% 1%;
+    height: 20rem;
 }
 .head_box {
     display: flex;
@@ -29,46 +30,108 @@
     font-weight: 600;
     text-align: center;
     text-decoration: none;
-
     }
     .head_men{
         color: white;
         padding: 1%;
+        background-color: #7400b8;
+        border-left: black 3px solid;
+        margin-top: 1%;
+        border-bottom: black 6px solid;
+        z-index: 1;
+        margin-bottom: 6.3%;
+
+    }
+    .head_submenu {
+        display: none;
+    }
+    .head_men:hover {
+        background-color: black;
+        transition: .5s;
+        width: 20px;
+    }
+    #head_menu:hover .head_submenu{
+        /* display: block;  */
+        display: flex;
+        justify-content: space-evenly;
+        position:fixed;
+        width: 1000px;
+        color:ivory;
+        height: 355px;
+        background: linear-gradient(to left, #a300b8,#ac03a3, #d11f96, #ee1f87);
+        left: -0%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .sub_cat{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub_stick{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub_apps{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub_about{
+        display: flex;
+        flex-direction: column;
     }
     .head_log{
         background-color: rgb(62, 62, 62);
-        width: 13em;
+        width: 14em;
         height: 50%;
-        padding: 5% 20%;
+        padding: 5% 15%;
         border: transparent;
         margin-left: 10%;
-        margin-top: 17%;
+        margin-top: 6%;
         color: white;
         
     }
     .head_user{
         background-color: rgba(255, 255, 255, 0.1);
         padding: 12% 15%;
-        margin-right: 40%;
-        margin-left: -35%; 
+        margin-right: 20%;
+        margin-left: -40%; 
     }
     .head_bord{
         /* background-color: pink; */
         /* background-image: linear-gradient(to left, red, orange, yellow, green); */
-        border-right: black 5px solid;
+        border-right: black 3px solid;
+        border-left: black 3px solid;
         width: 50%;
         padding: 1%;
-        margin-top: .5%;
-        
+        margin-top: 0%;
+        border-bottom: black 6px solid;
+    }
+    .head_bord:hover {
+        background-color: black;
+        transition: .5s;
     }
     .head_bar{
         display: flex;
-        background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
-        column-gap: 1%;
+        /* background: linear-gradient(to left, #7400b8,#6930c3, #5e60ce, #5390d9, #4ea8de, #48bfe3, #56cfe1, #64dfdf, #72efdd);
+        
         background-clip: padding-box;
-        width: 45%;
-        margin-top: 2%;
-        margin-bottom: 1%;
+        width: 46%;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        padding-right: 0%;
+        z-index: 0;  */
+        width: 46%;
+    }
+    .head_wrap {
+        display: flex;
+        background: linear-gradient(to left, #7400b8,#6930c3, #5e60ce, #5390d9, #4ea8de, #48bfe3, #56cfe1, #64dfdf, #72efdd);
+        column-gap: 0%;
+        background-clip: padding-box;
+        width: 99%;
+        margin-top: 1%;
+        margin-bottom: 6.3%;
+        padding-right: 0%;
+        z-index: 0; 
     }
     .head_upcr {
         display: block;
@@ -78,11 +141,55 @@
     }
     .head_ucbox {
        background-color: #6157ff; 
-       margin-top: 2%;
-       margin-bottom: 1%;
+       margin-top: 1%;
+       margin-bottom: 3%;
        padding: 1%;
+       border-bottom: black 5px dashed;
     }
-    .head_search {
+    
+    .head_search{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0%;
+        margin-left: 2.5%;
         
+    }
+    .head_input {
+        display: inline-block;
+        width: 88%;
+        margin-left: 0%;
+        height: 3rem;
+        margin-top: 0%;
+        z-index: 0;
+    }
+    .head_serbut{
+        display: inline-block;
+        width: 54px;
+        height: 54px;
+        background-color: blueviolet;
+        margin-left: 0%;
+        margin-top: 0%;
+        border-color: transparent;
+        color: white;
+        animation: search-icon 2s ease-in both infinite alternate;
+    }
+    @keyframes search-icon {
+         0% {
+             
+             background-color: tomato;
+
+        }
+        33% {
+            background-color: rgb(253, 205, 205);
+        }
+        66%{
+            
+            background-color: rgb(231, 155, 14);
+        }
+        100%{
+            
+            background-color: rgb(165, 0, 165);
+        }
+       
     }
     
